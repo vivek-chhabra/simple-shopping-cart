@@ -26,11 +26,6 @@ export default function Navbar({}: Props) {
                                     Store
                                 </NavLink>
                             </li>
-                            <li className="nav-item">
-                                <NavLink to="/about" className="nav-link">
-                                    About
-                                </NavLink>
-                            </li>
                         </ul>
                     </div>
                     <NavLink to="/cart">
