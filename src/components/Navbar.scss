@@ -1,0 +1,27 @@
+.Navbar {
+    .fa-solid {
+        font-size: 20px;
+        cursor: pointer;
+
+        div {
+            width: 17px;
+            height: 17px;
+            position: absolute;
+            border-radius: 10px;
+            background-color: red;
+            font-size: 10px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-weight: 600;
+            color: white;
+            padding-top: 1px;
+            top: -8px;
+            right: -8px;
+        }
+
+        &:hover {
+            color: rgb(55, 87, 213);
+        }
+    }
+}
